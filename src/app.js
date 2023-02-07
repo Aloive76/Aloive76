@@ -19,18 +19,14 @@ calcButton.addEventListener('click', () => {
    let r_1 = Number(r_1Elem.value);
    let r_2 = Number(r_2Elem.value);
    let kupmagassag = Number(kupmagassag.value);
+   let π = Number(3.14,Number)
   
-   let area = calcArea(r_1side, r_2side, kupmagassagside, );
-   areaElem.value = area;
+   let Volume = calcVolume(r_1side, r_2side, kupmagassagside, );
+   VolumeElem.value = area;
 });
 
-function calcArea(a, b, c, d) {
-    let terulet = ( (a + c)/(4*(a-c)) ) 
-    * Math.sqrt(
-        (a+b-c+d)*
-        (a-b-c+d)*
-        (a+b-c-d)*
-        (-a+b+c+d)
-    )
-    return terulet;
+function calcVolume(a, b, c,) {
+    let terfogat = {1/3} 3,14 r_1 r_2 h
+    
+        
 }
